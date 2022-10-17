@@ -1,0 +1,67 @@
+.About
+{
+    text-align: center;
+    background-image: url("https://live.staticflickr.com/65535/52339458292_0662f22a8d_k.jpg");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 251%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#about-header
+{
+    color: #ededed;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 65px;
+    margin-top: 90px;
+}
+
+.about-paragraph
+{
+    margin-left: 25%;
+    margin-right: 25%;
+
+    display: table; /* dice all'elemento di comportarsi come una table HTML. */
+
+    color: antiquewhite; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+
+}
+
+#OG_h3_ranks
+{
+    height: auto;
+    width: auto;
+    max-width: 800px;
+}
+
+#saveHaloDotAPI
+{
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.social-icons
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.stay_sticky
+{
+  position: sticky;
+  margin-top: 3%;
+  padding-bottom: 1%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

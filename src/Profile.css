@@ -1,22 +1,11 @@
-.App 
+.Profile
 {
   text-align: center;
-  /* background-image: url("https://live.staticflickr.com/65535/52340255876_e55c4bedaa_k.jpg") ; */
-  background-image: url("https://live.staticflickr.com/65535/52341043640_2827f989eb_k.jpg");
   position: absolute;
   top: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.Player__container___f3NHe
-{
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute !important;
 }
 
 .stay_fixed
@@ -44,12 +33,11 @@ body
   background-color: black;
 }
 
-#welcome_header
+h1
 {
-  color: #ededed;
-  font-family: 'Rajdhani', sans-serif;
+  color: rgb(201, 18, 18);
   font-size: 65px;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 li
@@ -58,29 +46,6 @@ li
   margin-top: 10px;
   color:antiquewhite;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#introduction
-{
-  color: #b3daf8;
-  margin-bottom: 10px;
-  margin-top: 160px;
-  font-family: 'Amiri', serif;
-  font-family: 'Rajdhani', sans-serif;
-}
-
-#search-container
-{
-  margin-left: 5px;
-}
-
-#search-input-home
-{
-  margin-top: 2px;
-  width: 8%;
-  border: 2px solid gold;
-  border-radius: 5px;
-  outline: none;
 }
 
 .PlayerSearched
@@ -100,7 +65,7 @@ li
 
 #More
 {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 #search_result_counters
@@ -148,11 +113,20 @@ html, body
   width:100%;
 }
 
-#giafra_sniping_pg
+#giafra_sniping_pg /* non in uso in questa versione */
 {
   width: 54%;
   height: 54%;
 }
+
+#search-input-results
+{
+  margin-top: 5%;
+  width: 8%;
+  border: 2px solid gold;
+  border-radius: 5px;
+  outline: none;
+} 
 
 hr
 {

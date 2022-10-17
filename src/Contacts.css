@@ -1,0 +1,68 @@
+.Contacts
+{
+    text-align: center;
+    /* background-image: url("https://live.staticflickr.com/65535/52340781595_6f71d49796_k.jpg"); */
+    /* background-image: url("https://live.staticflickr.com/65535/52340255876_e55c4bedaa_k.jpg"); */
+    /* background-image: url("https://live.staticflickr.com/65535/52354655404_3358bdb3d9_o.jpg"); */
+    background-image: url("https://live.staticflickr.com/65535/52354773625_543416e40a_o.jpg");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#contacts-header
+{
+  color: #ededed;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 65px;
+  margin-top: 90px;
+}
+
+#confirm_message
+{
+  color: antiquewhite;
+  background-color: rgba(100, 0, 0, 0.8);
+
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#contacts-form
+{
+    margin-top: 30px;
+}
+
+.form-row
+{
+  width: 100%;
+  display: inline-block;
+}
+
+.contacts_input
+{
+  width: 15%;
+  margin: 4px;
+}
+
+#your-message
+{
+  width: 15%;
+  height: 90px;
+  resize: none;
+}
+
+.stay_fixed
+{
+  position: fixed;
+  margin-top: 3%;
+  padding-bottom: 1%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+

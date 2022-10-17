@@ -1,0 +1,17 @@
+.NotFound
+{
+    position: absolute;
+    text-align: left;
+}
+
+#not_found_header
+{
+    color: red;
+
+}
+
+#not_found_explanation
+{
+    color: antiquewhite;
+    font-size: 18px;
+}
