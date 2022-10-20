@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Hi everyone! Welcome to my very first React project. It's been quite a way, but rather fast.
 Before starting this project, I knew absolutely nothing of front-end and web development in general! Even my React skills were very limited, and my knowledge of this library was merely theoretical.
-That's why I chose to commit on Git only the "final" 0.9 version, so I could keep for me all the very dumb code I wrote in the early revisions -- not that the code I'm publishing here is that sophisticated, but at least I'm using Hooks and I'm not breaking many React patterns :P
+That's why I chose to commit on Git only the "final" 0.9 version, so I could keep for me all the very dumb code I wrote in the early revisions -- not that the code I'm publishing here is that sophisticated, but at least I'm using Hooks and I'm not breaking so many React patterns as before :P
 
 Please be aware of this in case you decide to make a pull request. I'm learning fast, but still, experience comes with time!
 
