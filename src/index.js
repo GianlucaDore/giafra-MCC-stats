@@ -20,6 +20,7 @@ ReactDOM.render(
           <Route path=":id" element={ <Profile /> } />
         </Route>
         <Route path="/error" element={ <NotFound /> } />
+        <Route path="*" element={ <NotFound /> } />
       </Routes>
     </BrowserRouter>,
   document.getElementById('root')

@@ -40,8 +40,8 @@ export default function Contacts()
             );
 
             console.log("EmailJS server response:", response.status, response.text);
-            setIsConfirmed(true);
-            setIsLoading(false);
+            setIsConfirmed(true);  // Vogliamo il messaggio di conferma di avvenuto invio del form.
+            setIsLoading(false);  // togliamo l'anello di caricamento quando va renderizzato il messaggio di conferma
         } 
         
         catch (err) {

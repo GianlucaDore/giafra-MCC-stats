@@ -24,7 +24,7 @@ export class MatchTable extends React.Component
                                     <td>{this.props.recentMatches.mapArray[i]}</td>
                                     <td>{this.props.recentMatches.killsArray[i]}</td>
                                     <td>{this.props.recentMatches.deathsArray[i]}</td>
-                              </tr> ;
+                                 </tr> ;
         }
         
         if (this.arrayCells[0] === undefined)   // se non abbiamo fetchato i dati, arrayCells non viene riempito.
@@ -38,7 +38,6 @@ export class MatchTable extends React.Component
     {
         if (this.fillTableFromProps()  === 0)
             return null;
-            //return (<img id="giafra_sniping_pg" src="https://live.staticflickr.com/65535/52024377948_dbdefceecf_o.png" alt="giafra_sniping" />);  // se non abbiamo fetchato i dati, la tabella non deve essere generata
 
         else
         {

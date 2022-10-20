@@ -120,7 +120,10 @@ export const Profile = () =>
                         }
 
                     stats.totalKD = (stats.totalKills / stats.totalDeaths);
-                    stats.totalWL = (stats.totalVictories / stats.totalLosses);       
+                    if (stats.totalLosses === 0)
+                        stats.totalWL = stats.totalVictories;
+                    else
+                        stats.totalWL = (stats.totalVictories / stats.totalLosses);       
 
                     setState((prevState) => { return {...prevState, loading: false, arrays : data, counters : stats}});
                 
@@ -129,63 +132,6 @@ export const Profile = () =>
 
             fetchHaloData().catch((error) => { console.log("There was an error:" + error)});
         }
-        
-        
-        /*
-        .then(response =>      // il metodo .json() è un metodo della classe Response che prende in input un Response stream e lo legge fino alla fine, ritornando una promise che si risolve in
-            response.json())   // un oggetto generico JavaScript ottenuto parsificando la response come se fosse un JSON. Non produce direttamente un JSON, bensì un oggetto! 
-        .then(res => {   // la promise di .json() si risolve in un oggetto costruito interpretando response come un JSON, quindi qua abbiamo l'oggetto in input che dobbiamo esplorare.
-                              
-            let data = {
-                gameArray : [],
-                categoryArray : [],
-                mapArray : [],
-                victoryArray : [],
-                killsArray : [],
-                deathsArray : [],
-            };
-
-            let stats = {
-                totalKills : 0, 
-                totalDeaths : 0, 
-                totalVictories : 0, 
-                totalLosses : 0,
-                totalKD : 0, 
-                totalWL : 0
-            };
-
-            if (state.arrays.gameArray[0] != undefined)
-            {
-                data = state.arrays; 
-                stats = state.counters;
-            }
-
-            for (let i=0; i< res.data.length; i++)   // salviamo tutti i dati del json di risposta.
-                {
-                    data.victoryArray.push(res.data[i].victory);
-                    data.victoryArray[data.victoryArray.length-1] ? stats.totalVictories++ : stats.totalLosses++  // Se l'elemento appena inserito nell'array delle partite è true, aumentiamo il counter di vittorie, altrimenti......
-
-                    data.killsArray.push(res.data[i].stats.kills);
-                    stats.totalKills += data.killsArray[data.killsArray.length-1];
-
-                    data.deathsArray.push(res.data[i].stats.deaths);
-                    stats.totalDeaths += data.deathsArray[data.deathsArray.length-1];
-
-                    data.mapArray.push(res.data[i].details.map.name);
-                    data.categoryArray.push(res.data[i].details.category.name);
-                    data.gameArray.push(res.data[i].details.engine.name);
-                }
-
-            stats.totalKD = (stats.totalKills / stats.totalDeaths);
-            stats.totalWL = (stats.totalVictories / stats.totalLosses);       
-
-            setState((prevState) => { return {...state, arrays : data, counters : stats}});
-        
-        })  
-        .catch(error => {   // catturiamo eventuali errori nella catena di promises e visualizziamoli a video.
-            console.log("There was an error: " + error);
-        }); */
-
     
     }, [id, state.pageCounter]); 
         
