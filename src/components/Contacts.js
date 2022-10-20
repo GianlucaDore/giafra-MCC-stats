@@ -2,9 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import { NavBar } from './NavBar';
-// import { useNavigate } from 'react-router-dom';
 import { CustomFooter } from './CustomFooter';
-import '../Contacts.css'
+import '../css/Contacts.css'
 import { ClipLoader } from 'react-spinners';
 
 

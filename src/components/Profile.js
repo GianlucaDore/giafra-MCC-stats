@@ -7,7 +7,7 @@ import { CustomFooter } from './CustomFooter';
 import { ClipLoader } from 'react-spinners';
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import '../Profile.css';
+import '../css/Profile.css';
 
 export const Profile = () =>
 {

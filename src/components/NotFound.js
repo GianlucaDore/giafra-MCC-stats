@@ -1,6 +1,6 @@
 import React from "react";
 import { NavBar } from "./NavBar";
-import '../NotFound.css'
+import '../css/NotFound.css'
 
 export const NotFound = () => 
 {

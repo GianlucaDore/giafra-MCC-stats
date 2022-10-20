@@ -2,7 +2,7 @@ import React from "react";
 import { NavBar } from "./NavBar";
 import { CustomFooter } from "./CustomFooter";
 import { SocialIcon } from "react-social-icons";
-import '../About.css';
+import '../css/About.css';
 
 export class About extends React.Component 
 {
