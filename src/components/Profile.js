@@ -165,7 +165,7 @@ export const Profile = () =>
     if (state.loading === true)  // se la pagina è in caricamento col simbolino, i contatori non devono essere visualizzati, altrimenti sì.
         counters = null;
     else
-        counters = <h3 id="search_result_counters">Showing last { state.arrays.gameArray.length } matches for "{ id }". Total K/D: { state.counters.totalKD }. Total W/L: { state.counters.totalWL }</h3>;
+        counters = <h3 id="search_result_counters">Showing last { state.arrays.gameArray.length } matches for "{ id }". Total K/D: { state.counters.totalKD.toFixed(2) }. Total W/L: { state.counters.totalWL.toFixed(2) }</h3>;
 
 
     return (
