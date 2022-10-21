@@ -23,6 +23,11 @@ For now though, it's only able to retrieve the last 75 matches of the requested 
 After running the project, made with create-react-app, the application should open on the landing page, the home page.
 Here you have the core feature of the webapp: the search for a player's stats. 
 The search starts by tiping the player's username in the form, and then submitting it. 
+
+
+![MCCstats_home](https://user-images.githubusercontent.com/51960987/197158778-21128a9e-fac7-40b1-bca9-03a28f6ddd2e.PNG)
+
+
 Please note that the player's username is the player's Xbox Live Gamertag. Although it's NOT case-sensitive, the exact alphanumeric sequence is still needed in order to get a successful response from the API. 
 
 
@@ -34,6 +39,10 @@ giafra
 FairuzaVostok
 
 Pillow IQ
+
+
+![MCCstats_Stats](https://user-images.githubusercontent.com/51960987/197158894-3c58f6dd-6879-4cfd-b924-b4f5d28124f2.PNG)
+
 
 
 It's also possible that the Gamertag inserted does exist in Microsoft database, but the linked user never played Halo: The Master Chief Collection, OR the user could have set his statistics to "private" in his privacy settings, thus preventing his stats to be fetched by 3rd-party APIs. The webapp is programmed to throw an alert in the browser if this is the case, and then to redirect the user to the landing page.
@@ -66,6 +75,10 @@ The about page is an example of how I handle non-dynamic components.
 It tells about the history of previous MCC stat trackers and how this application will imitate them in later updates. 
 At the bottom of the page, two social media buttons will take you to my Twitch and Youtube accounts.
 
+
+![MCCstats_About](https://user-images.githubusercontent.com/51960987/197159051-dcbebc19-3b7f-4793-a1d0-cf5081721214.PNG)
+
+
 # Contacts page
 
 The contacts page lets you send a email to the administrators of the site -- just me for now :)  .
@@ -82,7 +95,12 @@ The webpage presents a form, which inputs are, in order:
 - "Your email", aka the email that we'll use to contact you in case we have to reply to the request.
 
 
+![MCCstats_Contacts](https://user-images.githubusercontent.com/51960987/197159230-d397bb18-b007-4abc-b3ff-50371de221d9.PNG)
+
+
+
 After submitting the form (by clicking the "Send" button), a confirmation message will be rendered instead of the form, after the loading icon.
+
 
 # URL manipulation
 
