@@ -8,6 +8,8 @@ That's why I chose to commit on Git only the "final" 0.9 version, so I could kee
 
 Please be aware of this in case you decide to make a pull request. I'm learning fast, but still, experience comes with time!
 
+NOTE FOR DEVELOPERS: If you're into React / coding, please keep in mind that I've learned most of what I know about React while working on this application. I tried to master different concepts, such as Hooks, lifecycle and many others while coding this app. That's why you may encounter different ways of coding when going through the different source files. Actually I first wrote the app using only class components, only to edit most of them when I learned Hooks (but not ALL of them). Of course, the final version is going to be homogeneous in the coding style and structure, but for early revisions I'm going to preserve some of the older lines of code, just to remember how things could be done differently (such as Class components instead of Functions).
+
 # What is this?
 
 This React application was designed as my very first exercise with the library. Basically, it provides a view for the stats of MCC players.
